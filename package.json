@@ -12,7 +12,7 @@
   "publisher": "CPCReady",
   "repository": {
 		"type": "git",
-		"url": "https://github.com/CPCReady/basic-language-extension.git"
+		"url": "https://github.com/CPCReady/basic-language-extension"
 	},
   "keywords": ["AMSTRAD", "Basic","ugBasic"],
   "contributes": {
