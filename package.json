@@ -1,0 +1,25 @@
+{
+  "name": "cpcready-basic-language-extension",
+  "displayName": "CPCReady Basic Language (AMSTRAD)",
+  "description": "Programacion Amstrad Basic and ugBasic",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "cpcready-language",
+      "aliases": ["basic", "cpcready-language"],
+      "extensions": ["basic","ugbasic"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "cpcready-language",
+      "scopeName": "source.basic",
+      "path": "./syntaxes/cpcready-language.tmLanguage.json"
+    }]
+  }
+}
