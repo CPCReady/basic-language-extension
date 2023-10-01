@@ -14,6 +14,7 @@
 		"type": "git",
 		"url": "https://github.com/CPCReady/basic-language-extension.git"
 	},
+  "keywords": ["AMSTRAD", "Basic","ugBasic"],
   "contributes": {
     "languages": [{
       "id": "cpcready-language",
