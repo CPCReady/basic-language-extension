@@ -1,8 +1,4 @@
-<p align="center">
-<img src="icon.png" 
-        alt="CPCReady Language support" 
-        style="display: block; margin: 0 auto" />
-</p>
+
 
 # Amstrad Basic Laguage 
 
