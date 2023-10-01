@@ -9,6 +9,10 @@
   "categories": [
     "Programming Languages"
   ],
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/CPCReady/basic-language-extension.git"
+	},
   "contributes": {
     "languages": [{
       "id": "cpcready-language",
@@ -23,3 +27,5 @@
     }]
   }
 }
+
+
