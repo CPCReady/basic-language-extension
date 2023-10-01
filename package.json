@@ -10,6 +10,7 @@
     "Programming Languages"
   ],
   "publisher": "CPCReady",
+  "icon": "icon.png",
   "repository": {
 		"type": "git",
 		"url": "https://github.com/CPCReady/basic-language-extension"
