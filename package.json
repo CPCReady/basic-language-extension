@@ -25,13 +25,17 @@
       {
         "id": "cpcready-language",
         "aliases": [
-          "basic",
+          "amstrad-basic-cpcready",
+          "cpcready-amstrad-basic",
           "cpcready-language"
         ],
         "extensions": [
-          "bas",
-          "ugbasic",
-          "ugb"
+          ".bas",
+          ".ugbasic",
+          ".ugb",
+          ".BAS",
+          ".UGB",
+          "UGBASIC"
         ],
         "configuration": "./language-configuration.json"
       }
@@ -39,7 +43,7 @@
     "grammars": [
       {
         "language": "cpcready-language",
-        "scopeName": "source.basic",
+        "scopeName": "source.cpcready-language",
         "path": "./syntaxes/cpcready-language.tmLanguage.json"
       }
     ]
