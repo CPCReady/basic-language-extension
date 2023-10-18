@@ -20,7 +20,7 @@
     "languages": [{
       "id": "cpcready-language",
       "aliases": ["basic", "cpcready-language"],
-      "extensions": ["basic","ugbasic"],
+      "extensions": ["bas","ugbasic","ugb"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
