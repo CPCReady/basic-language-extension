@@ -2,7 +2,7 @@
   "name": "basic-language-extension",
   "displayName": "CPCReady Basic Language (AMSTRAD)",
   "description": "Programacion Amstrad Basic and ugBasic",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "engines": {
     "vscode": "^1.82.0"
   },
