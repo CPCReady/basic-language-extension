@@ -2,7 +2,7 @@
   "name": "basic-language-extension",
   "displayName": "CPCReady Basic Language (AMSTRAD)",
   "description": "Programacion Amstrad Basic and ugBasic",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.82.0"
   },
@@ -12,23 +12,36 @@
   "publisher": "CPCReady",
   "icon": "icon.png",
   "repository": {
-		"type": "git",
-		"url": "https://github.com/CPCReady/basic-language-extension"
-	},
-  "keywords": ["AMSTRAD", "Basic","ugBasic"],
+    "type": "git",
+    "url": "https://github.com/CPCReady/basic-language-extension"
+  },
+  "keywords": [
+    "AMSTRAD",
+    "Basic",
+    "ugBasic"
+  ],
   "contributes": {
-    "languages": [{
-      "id": "cpcready-language",
-      "aliases": ["basic", "cpcready-language"],
-      "extensions": ["bas","ugbasic","ugb"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "cpcready-language",
-      "scopeName": "source.basic",
-      "path": "./syntaxes/cpcready-language.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "cpcready-language",
+        "aliases": [
+          "basic",
+          "cpcready-language"
+        ],
+        "extensions": [
+          "bas",
+          "ugbasic",
+          "ugb"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "cpcready-language",
+        "scopeName": "source.basic",
+        "path": "./syntaxes/cpcready-language.tmLanguage.json"
+      }
+    ]
   }
 }
-
-
